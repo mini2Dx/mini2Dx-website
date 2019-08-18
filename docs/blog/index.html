@@ -107,6 +107,38 @@
                     <div class="col-md-8 col-md-offset-2 margin20">
                         <ul class="list-inline post-detail">
                             <li>by Thomas Cashman</li>
+                            <li><i class="fa fa-calendar"></i> 2019-08-18 21:00:00 +0100</li>
+                        </ul>
+                        <h2><a href="/2019/08/18/mini2Dx-2-0-0-alpha-3-released.html">mini2Dx 2.0.0-alpha.3 released</a></h2>
+                        <p>We’ve just released mini2Dx 2.0.0-alpha.3 with the following fixes/improvements. Once again a big thanks to Augusto Zanellato for his contributions :)</p>
+
+<ul>
+  <li>Added QuadTreeAware interface to allow inverse searching of QuadTrees</li>
+  <li>Added additional primitive implementations of Map and TreeMap (ByteMap, ByteTreeMap, etc.)</li>
+  <li>Added Input.isKeyDown(int) and Input.isKeyUp(int)</li>
+  <li>Added PlatformUtils class</li>
+  <li>Added primitive Queue implementations (IntQueue, LongQueue, etc.)</li>
+  <li>Added PerformanceTracker API</li>
+  <li>Optimized LibGDX Graphics class when rendering shapes</li>
+  <li>Fixed Rectangle with width and height of 0 always returns true for contains() method</li>
+  <li>Fixed UI input when a viewport is applied</li>
+  <li>Fixed TilingDrawable rendering only entire textureregions</li>
+</ul>
+
+<p>As always, follow the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">updating mini2Dx</a> page to update your version.</p>
+
+                        <p>
+                            <a href="/2019/08/18/mini2Dx-2-0-0-alpha-3-released.html">Read more</a>
+                        </p>
+                    </div>
+                </div>
+            </div><!--blog post-->
+            
+            <div class="blog-post">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 margin20">
+                        <ul class="list-inline post-detail">
+                            <li>by Thomas Cashman</li>
                             <li><i class="fa fa-calendar"></i> 2019-08-08 20:00:00 +0100</li>
                         </ul>
                         <h2><a href="/2019/08/08/mini2Dx-2-0-0-alpha-2-and-1-9-10-released.html">mini2Dx 2.0.0-alpha.2 and 1.9.10 released</a></h2>
@@ -249,29 +281,6 @@
                 </div>
             </div><!--blog post-->
             
-            <div class="blog-post">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 margin20">
-                        <ul class="list-inline post-detail">
-                            <li>by Thomas Cashman</li>
-                            <li><i class="fa fa-calendar"></i> 2019-06-25 17:00:00 +0100</li>
-                        </ul>
-                        <h2><a href="/2019/06/25/mini2Dx-1-9-6-released.html">mini2Dx 1.9.6 released</a></h2>
-                        <p>mini2Dx 1.9.6 has been released with the following fix:</p>
-
-<ul>
-  <li>Fixed crash when Tiled object templates have no properties</li>
-</ul>
-
-<p>To update your existing projects, see the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">Updating mini2Dx</a> wiki page.</p>
-
-                        <p>
-                            <a href="/2019/06/25/mini2Dx-1-9-6-released.html">Read more</a>
-                        </p>
-                    </div>
-                </div>
-            </div><!--blog post-->
-            
         </div>
     </div>
 
@@ -405,7 +414,7 @@
             if(platform.os.family.indexOf('Windows') > -1) {
                 $('#download_mobile_icon').attr('src', '/img/windows_small.png');
                 $('#download_desktop_icon').attr('src', '/img/windows_medium.png');
-                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/download/v1.2.4/mini2Dx-project-generator-windows.zip');
+                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/latest/download/mini2Dx-project-generator-windows.zip');
                 $('#download_link').text('mini2Dx Project Generator for Windows');
             } else if(platform.os.family.indexOf('Linux') > -1
                 || platform.os.family.indexOf('Ubuntu') > -1
@@ -415,22 +424,22 @@
                 || platform.os.family.indexOf('SuSE') > -1) {
                 $('#download_mobile_icon').attr('src', '/img/ubuntu_small.png');
                 $('#download_desktop_icon').attr('src', '/img/ubuntu_medium.png');
-                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/download/v1.2.4/mini2Dx-project-generator-linux.zip');
+                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/latest/download/mini2Dx-project-generator-linux.zip');
                 $('#download_link').text('mini2Dx Project Generator for Ubuntu');
             } else if(platform.os.family.indexOf('Android') > -1) {
                 $('#download_mobile_icon').attr('src', '/img/ubuntu_small.png');
                 $('#download_desktop_icon').attr('src', '/img/ubuntu_medium.png');
-                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/download/v1.2.4/mini2Dx-project-generator-linux.zip');
+                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/latest/download/mini2Dx-project-generator-linux.zip');
                 $('#download_link').text('mini2Dx Project Generator for Ubuntu');
             } else if(platform.os.family.indexOf('iOS') > -1) {
                 $('#download_mobile_icon').attr('src', '/img/macos_small.png');
                 $('#download_desktop_icon').attr('src', '/img/macos_medium.png');
-                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/download/v1.2.4/mini2Dx-project-generator-mac.zip');
+                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/latest/download/mini2Dx-project-generator-mac.zip');
                 $('#download_link').text('mini2Dx Project Generator for Mac OS');
             } else {
                 $('#download_mobile_icon').attr('src', '/img/macos_small.png');
                 $('#download_desktop_icon').attr('src', '/img/macos_medium.png');
-                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/download/v1.2.4/mini2Dx-project-generator-mac.zip');
+                $('#download_link').attr('href', 'https://github.com/mini2Dx/mini2Dx-project-generator/releases/latest/download/mini2Dx-project-generator-mac.zip');
                 $('#download_link').text('mini2Dx Project Generator for Mac OS');
             } 
         </script>
