@@ -107,6 +107,30 @@
                     <div class="col-md-8 col-md-offset-2 margin20">
                         <ul class="list-inline post-detail">
                             <li>by Thomas Cashman</li>
+                            <li><i class="fa fa-calendar"></i> 2019-09-09 20:00:00 +0100</li>
+                        </ul>
+                        <h2><a href="/2019/09/09/mini2Dx-2-0-0-alpha-7-released.html">mini2Dx 2.0.0-alpha.7 released</a></h2>
+                        <p>We’ve just released mini2Dx 2.0.0-alpha.7 which contains the following changes:</p>
+
+<ul>
+  <li>Fixed crash when deserializing a XML null value</li>
+  <li>Fixed incorrect UI input scaling when using UiContainer#setScale</li>
+</ul>
+
+<p>As always, follow the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">updating mini2Dx</a> page to update your version.</p>
+
+                        <p>
+                            <a href="/2019/09/09/mini2Dx-2-0-0-alpha-7-released.html">Read more</a>
+                        </p>
+                    </div>
+                </div>
+            </div><!--blog post-->
+            
+            <div class="blog-post">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 margin20">
+                        <ul class="list-inline post-detail">
+                            <li>by Thomas Cashman</li>
                             <li><i class="fa fa-calendar"></i> 2019-09-08 20:00:00 +0100</li>
                         </ul>
                         <h2><a href="/2019/09/08/mini2Dx-2-0-0-alpha-5-released.html">mini2Dx 2.0.0-alpha.5 released</a></h2>
@@ -224,63 +248,6 @@
 
                         <p>
                             <a href="/2019/08/08/mini2Dx-2-0-0-alpha-2-and-1-9-10-released.html">Read more</a>
-                        </p>
-                    </div>
-                </div>
-            </div><!--blog post-->
-            
-            <div class="blog-post">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 margin20">
-                        <ul class="list-inline post-detail">
-                            <li>by Thomas Cashman</li>
-                            <li><i class="fa fa-calendar"></i> 2019-08-04 20:00:00 +0100</li>
-                        </ul>
-                        <h2><a href="/2019/08/04/mini2Dx-2-0-0-alpha-1-released.html">mini2Dx 2.0.0-alpha.1 released</a></h2>
-                        <p>I’m excited to reveal the first alpha of mini2Dx 2.0 :)</p>
-
-<p>As <a href="https://mini2dx.org/2018/06/10/mini2Dx-1-7-0-released-and-roadmap-ahead.html">previously announced</a>, 2.0 de-couples LibGDX to allow for more platforms. A special thanks to Augusto Zanellato for his major contributions to the new MonoGame-based runtime on games consoles. For anyone using 1.9.x, the upgrade path should be easy as we’ve aimed to keep the API as close as possible in 2.0.</p>
-
-<p><strong>New Library Structure</strong></p>
-
-<p>The following is the new library/dependency structure for mini2Dx.</p>
-
-<ul>
-  <li>mini2Dx-core (Cross-platform APIs)</li>
-  <li>mini2Dx-libgdx (Common code for LibGDX-based runtimes)</li>
-  <li>mini2Dx-libgdx-desktop (LibGDX runtime for Windows/Mac/Linux)</li>
-  <li>mini2Dx-libgdx-android (LibGDX runtime for Android)</li>
-  <li>mini2Dx-libgdx-ios (LibGDX runtime for iOS - Note: This is not release in alpha.1 but will be in alpha.2)</li>
-  <li>mini2Dx-monogame (Common code for MonoGame-based runtimes)</li>
-</ul>
-
-<p><strong>Upgrading to 2.0</strong></p>
-
-<p>mini2Dx 2.0 now provides cross-platform APIs for Sprite, Texture, TextureRegion, etc. However, if you use a LibGDX-specific API not provided by mini2Dx, you’ll need to find/implement a cross-platform solution. If you don’t plan on porting to consoles, you can simply add a dependency on <em>mini2Dx-libgdx</em> to your core project and continue using the LibGDX APIs.</p>
-
-<p>Simply follow the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">updating mini2Dx</a> page and set your version to <em>2.0.0-alpha.1</em></p>
-
-<p><strong>Desktop/Mobile Runtimes</strong></p>
-
-<p>Since the desktop/mobile runtimes are based on 1.9.x, these should already be stable. As always if you find any issues please add them to the <a href="https://github.com/mini2Dx/mini2Dx/issues">Issue Tracker</a>.</p>
-
-<p><strong>Console Runtimes</strong></p>
-
-<p>mini2Dx 2.0 will add games console support via MonoGame. However, please note the following:</p>
-
-<ul>
-  <li>You must be a registered developer with the console provider to gain access to the runtime for that platform</li>
-  <li>The console-specific runtimes are held in private repositories</li>
-  <li>You will need to purchase the appropriate development hardware as required</li>
-  <li>You will need to purchase a license for a cross-compiler to target the platform (more info available soon)</li>
-</ul>
-
-<p><strong>Future</strong></p>
-
-<p>We’ll be continuing with bug fixes until 2.0 is stable on all platforms. We encourage developers to test the alpha/beta builds and help us find issues. As previous stated, 1.9.x will only receive bug fixes and optimisations going forward. Once 2.0 is released, 1.9.x will be 100% community-driven on the <a href="https://github.com/mini2Dx/mini2Dx-ve">mini2Dx Vintage Edition repository</a>.</p>
-
-                        <p>
-                            <a href="/2019/08/04/mini2Dx-2-0-0-alpha-1-released.html">Read more</a>
                         </p>
                     </div>
                 </div>
