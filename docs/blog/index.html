@@ -107,6 +107,64 @@
                     <div class="col-md-8 col-md-offset-2 margin20">
                         <ul class="list-inline post-detail">
                             <li>by Thomas Cashman</li>
+                            <li><i class="fa fa-calendar"></i> 2019-10-31 12:00:00 +0000</li>
+                        </ul>
+                        <h2><a href="/2019/10/31/mini2Dx-2-0-0-alpha-and-more.html">mini2Dx 2.0.0 Alpha + More</a></h2>
+                        <h2 id="new-ui-xml-format">New UI XML Format</h2>
+
+<p>We’ve just released mini2Dx 2.0.0-alpha.15 which contains a new XML format for UI thanks to Dan Dudley. Originally, we had planned on working on a new format in 2.1 but thanks to Dan’s massive contribution this will be part of 2.0.</p>
+
+<p>The new format is much simpler and comes with an <a href="https://raw.githubusercontent.com/mini2Dx/mini2Dx/master/ui/src/main/resources/mini2dx-ui.xsd">XML schema</a> so that IDEs can auto-complete and validate your XML.</p>
+
+<p>A sample of the new format can be found below. As always, follow the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">updating mini2Dx</a> page to update your version.</p>
+
+<div class="language-xml highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;container</span> <span class="na">xmlns=</span><span class="s">"https://github.com/mini2Dx/mini2Dx"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;flex-row&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"firstColumn"</span> <span class="na">layout=</span><span class="s">"xs-12 sm-10 sm-offset-1 md-3"</span> <span class="na">style=</span><span class="s">""</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;label</span> <span class="na">style=</span><span class="s">"default"</span> <span class="na">text=</span><span class="s">"Label text"</span><span class="nt">/&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">layout=</span><span class="s">"xs-12 sm-10 sm-offset-2 md-3"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;select</span> <span class="na">id=</span><span class="s">"select1"</span> <span class="na">style=</span><span class="s">"default"</span><span class="nt">&gt;</span>
+				<span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"1"</span><span class="nt">&gt;</span>Option 1<span class="nt">&lt;/option&gt;</span>
+				<span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"2"</span><span class="nt">&gt;</span>Option 2<span class="nt">&lt;/option&gt;</span>
+				<span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"3"</span><span class="nt">&gt;</span>Option 3<span class="nt">&lt;/option&gt;</span>
+				<span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"4"</span><span class="nt">&gt;</span>Option 4<span class="nt">&lt;/option&gt;</span>
+			<span class="nt">&lt;/select&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">layout=</span><span class="s">"xs-12 sm-10 sm-offset-2 md-3"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;text-button</span> <span class="na">id=</span><span class="s">"button1"</span> <span class="na">text=</span><span class="s">""</span> <span class="na">style=</span><span class="s">"default"</span><span class="nt">/&gt;</span>
+			<span class="nt">&lt;image-button</span> <span class="na">id=</span><span class="s">"button2"</span> <span class="na">style=</span><span class="s">"default"</span><span class="nt">&gt;</span>
+				<span class="nt">&lt;normal-texture&gt;</span>button.png<span class="nt">&lt;/normal-texture&gt;</span>
+			<span class="nt">&lt;/image-button&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">layout=</span><span class="s">"xs-12 sm-10 sm-offset-2 md-3"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;text-box</span> <span class="na">id=</span><span class="s">"textBox1"</span> <span class="na">style=</span><span class="s">"default"</span><span class="nt">/&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/flex-row&gt;</span>
+<span class="nt">&lt;/container&gt;</span>
+</code></pre>
+</div>
+
+<h2 id="roadmap">Roadmap</h2>
+
+<p>We’re still working on minor fixes to support games consoles. Once we have a stable build running in January/February, we’ll transition 2.0 to beta. As mentioned before, the alpha version is considered stable for desktop and mobile platforms and the API is near-final.</p>
+
+<p>We’re also working on a new website as part of 2.0 and hope to launch the new site during the beta. The new website will feature a whole new design with more documentation, tutorials and sample projects.</p>
+
+<p>In the meantime, make sure to <a href="https://mini2dx.org/community.html">join our community on Discord</a>!</p>
+
+                        <p>
+                            <a href="/2019/10/31/mini2Dx-2-0-0-alpha-and-more.html">Read more</a>
+                        </p>
+                    </div>
+                </div>
+            </div><!--blog post-->
+            
+            <div class="blog-post">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 margin20">
+                        <ul class="list-inline post-detail">
+                            <li>by Thomas Cashman</li>
                             <li><i class="fa fa-calendar"></i> 2019-10-27 15:00:00 +0000</li>
                         </ul>
                         <h2><a href="/2019/10/27/mini2Dx-2-0-0-alpha-11-released.html">mini2Dx 2.0.0-alpha.11 released + Roadmap</a></h2>
@@ -217,34 +275,6 @@
                 </div>
             </div><!--blog post-->
             
-            <div class="blog-post">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 margin20">
-                        <ul class="list-inline post-detail">
-                            <li>by Thomas Cashman</li>
-                            <li><i class="fa fa-calendar"></i> 2019-09-08 20:00:00 +0100</li>
-                        </ul>
-                        <h2><a href="/2019/09/08/mini2Dx-2-0-0-alpha-5-released.html">mini2Dx 2.0.0-alpha.5 released</a></h2>
-                        <p>We’ve just released mini2Dx 2.0.0-alpha.5 which contains the following changes:</p>
-
-<ul>
-  <li>Fixed LibgdxColor.equals not working correctly</li>
-  <li>Fixed LibgdxFrameBuffer not generating LibgdxTexture instance</li>
-  <li>Fixed average render duration tracking</li>
-  <li>Allow InterpolationTracker initial size to be configurable</li>
-  <li>Allow MonospaceGameFont.FontParameters to be loaded from JSON</li>
-  <li>Added total interpolating objects to performance tracker</li>
-</ul>
-
-<p>As always, follow the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">updating mini2Dx</a> page to update your version.</p>
-
-                        <p>
-                            <a href="/2019/09/08/mini2Dx-2-0-0-alpha-5-released.html">Read more</a>
-                        </p>
-                    </div>
-                </div>
-            </div><!--blog post-->
-            
         </div>
     </div>
 
@@ -256,7 +286,7 @@
                         
                         <span class="previous">Previous</span>
                         
-                        <span class="page_number ">Page: 1 of 15</span>
+                        <span class="page_number ">Page: 1 of 16</span>
                         
                         <a href="/blog/page2/" class="next">Next</a>
                         
