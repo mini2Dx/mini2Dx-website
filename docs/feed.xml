@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mini2dx.org/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mini2dx.org/" rel="alternate" type="text/html" /><updated>2019-12-31T13:45:44+00:00</updated><id>http://mini2dx.org/feed.xml</id><title type="html">mini2Dx</title><subtitle>mini2Dx is an open-source beginner-friendly, master-ready framework for rapidly prototyping and building 2D games in Java.
-</subtitle><entry><title type="html">mini2Dx 2.0.0 Alpha + More</title><link href="http://mini2dx.org/2019/10/31/mini2Dx-2-0-0-alpha-and-more.html" rel="alternate" type="text/html" title="mini2Dx 2.0.0 Alpha + More" /><published>2019-10-31T12:00:00+00:00</published><updated>2019-10-31T12:00:00+00:00</updated><id>http://mini2dx.org/2019/10/31/mini2Dx-2-0-0-alpha-and-more</id><content type="html" xml:base="http://mini2dx.org/2019/10/31/mini2Dx-2-0-0-alpha-and-more.html">&lt;h2 id=&quot;new-ui-xml-format&quot;&gt;New UI XML Format&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://mini2dx.org/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mini2dx.org/" rel="alternate" type="text/html" /><updated>2020-03-29T20:14:18+01:00</updated><id>http://mini2dx.org/feed.xml</id><title type="html">mini2Dx</title><subtitle>mini2Dx is an open-source beginner-friendly, master-ready framework for rapidly prototyping and building 2D games in Java.
+</subtitle><entry><title type="html">LWJGL3 Support</title><link href="http://mini2dx.org/2020/03/29/lwjgl3-support.html" rel="alternate" type="text/html" title="LWJGL3 Support" /><published>2020-03-29T19:00:00+01:00</published><updated>2020-03-29T19:00:00+01:00</updated><id>http://mini2dx.org/2020/03/29/lwjgl3-support</id><content type="html" xml:base="http://mini2dx.org/2020/03/29/lwjgl3-support.html">&lt;p&gt;We’ve just released mini2Dx 2.0.0-alpha.22 which adds support for LibGDX’s LWJGL 3 runtime. This will provide improved support for many things including internationalized input handling, ARM architecture, multi-monitor setups and more!&lt;/p&gt;
+
+&lt;p&gt;Moving forward there will be two LibGDX desktop runtimes:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;compile &quot;org.mini2Dx:mini2Dx-libgdx-desktop-lwjgl2:2.0.0-alpha.22&quot;
+
+OR
+
+compile &quot;org.mini2Dx:mini2Dx-libgdx-desktop-lwjgl3:2.0.0-alpha.22&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;DesktopMini2DxConfig has now been replaced with Lwjgl2Mini2DxConfig and Lwjgl3Mini2DxConfig.&lt;/p&gt;
+
+&lt;p&gt;If you haven’t upgraded to the 2.0.0 alpha yet, you can find more info &lt;a href=&quot;/2019/08/04/mini2Dx-2-0-0-alpha-1-released.html&quot;&gt;here&lt;/a&gt; page to update your version. If you find any issues, please report them on the &lt;a href=&quot;https://github.com/mini2Dx/mini2Dx/issues&quot;&gt;Issue Tracker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h2&gt;
+
+&lt;p&gt;We’re still working on supporting games consoles but have been delayed due to everyone being busy with work. However, progress is being made and we hope to have a beta version soom(TM)!&lt;/p&gt;
+
+&lt;p&gt;In the meantime, make sure to &lt;a href=&quot;https://mini2dx.org/community.html&quot;&gt;join our community on Discord&lt;/a&gt;!&lt;/p&gt;</content><author><name>Thomas Cashman</name></author><summary type="html">We’ve just released mini2Dx 2.0.0-alpha.22 which adds support for LibGDX’s LWJGL 3 runtime. This will provide improved support for many things including internationalized input handling, ARM architecture, multi-monitor setups and more! Moving forward there will be two LibGDX desktop runtimes: compile &quot;org.mini2Dx:mini2Dx-libgdx-desktop-lwjgl2:2.0.0-alpha.22&quot; OR compile &quot;org.mini2Dx:mini2Dx-libgdx-desktop-lwjgl3:2.0.0-alpha.22&quot; DesktopMini2DxConfig has now been replaced with Lwjgl2Mini2DxConfig and Lwjgl3Mini2DxConfig. If you haven’t upgraded to the 2.0.0 alpha yet, you can find more info here page to update your version. If you find any issues, please report them on the Issue Tracker. Roadmap We’re still working on supporting games consoles but have been delayed due to everyone being busy with work. However, progress is being made and we hope to have a beta version soom(TM)! In the meantime, make sure to join our community on Discord!</summary></entry><entry><title type="html">mini2Dx 2.0.0 Alpha + More</title><link href="http://mini2dx.org/2019/10/31/mini2Dx-2-0-0-alpha-and-more.html" rel="alternate" type="text/html" title="mini2Dx 2.0.0 Alpha + More" /><published>2019-10-31T12:00:00+00:00</published><updated>2019-10-31T12:00:00+00:00</updated><id>http://mini2dx.org/2019/10/31/mini2Dx-2-0-0-alpha-and-more</id><content type="html" xml:base="http://mini2dx.org/2019/10/31/mini2Dx-2-0-0-alpha-and-more.html">&lt;h2 id=&quot;new-ui-xml-format&quot;&gt;New UI XML Format&lt;/h2&gt;
 
 &lt;p&gt;We’ve just released mini2Dx 2.0.0-alpha.15 which contains a new XML format for UI thanks to Dan Dudley. Originally, we had planned on working on a new format in 2.1 but thanks to Dan’s massive contribution this will be part of 2.0.&lt;/p&gt;
 
@@ -145,44 +165,4 @@
   &lt;li&gt;(#88) Fixed clipping not working when rendering shapes&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;As always, follow the &lt;a href=&quot;https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx&quot;&gt;updating mini2Dx&lt;/a&gt; page to update your version.&lt;/p&gt;</content><author><name>Thomas Cashman</name></author><summary type="html">We’ve just released mini2Dx 2.0.0-alpha.2 and 1.9.10 with loads of fixes. 2.0.0-alpha.2 The following fixes/improvements have been made in 2.0.0-alpha.2. Once again a big thanks to Augusto Zanellato for his contributions :) Update to latest RoboVM to support iOS 12 (Re-)Added artemis-odb library and iOS runtime Implemented TilingDrawable Added SpriteCache interface and implementations Added ReadOnlyColor class for primary colors to avoid manipulation issues Reduced memory usage in MonoGame runtime Fixed dependency injection not injecting prototypes correctly (#175) Fixed FileHandle.listFiles() not working correctly (#88) Fixed clipping not working when rendering shapes 1.9.10 mini2Dx 1.9.10 also contains the following changes: Update to latest RoboVM to support iOS 12 (#88) Fixed clipping not working when rendering shapes As always, follow the updating mini2Dx page to update your version.</summary></entry><entry><title type="html">mini2Dx 2.0.0-alpha.1 released</title><link href="http://mini2dx.org/2019/08/04/mini2Dx-2-0-0-alpha-1-released.html" rel="alternate" type="text/html" title="mini2Dx 2.0.0-alpha.1 released" /><published>2019-08-04T20:00:00+01:00</published><updated>2019-08-04T20:00:00+01:00</updated><id>http://mini2dx.org/2019/08/04/mini2Dx-2-0-0-alpha-1-released</id><content type="html" xml:base="http://mini2dx.org/2019/08/04/mini2Dx-2-0-0-alpha-1-released.html">&lt;p&gt;I’m excited to reveal the first alpha of mini2Dx 2.0 :)&lt;/p&gt;
-
-&lt;p&gt;As &lt;a href=&quot;https://mini2dx.org/2018/06/10/mini2Dx-1-7-0-released-and-roadmap-ahead.html&quot;&gt;previously announced&lt;/a&gt;, 2.0 de-couples LibGDX to allow for more platforms. A special thanks to Augusto Zanellato for his major contributions to the new MonoGame-based runtime on games consoles. For anyone using 1.9.x, the upgrade path should be easy as we’ve aimed to keep the API as close as possible in 2.0.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;New Library Structure&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The following is the new library/dependency structure for mini2Dx.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;mini2Dx-core (Cross-platform APIs)&lt;/li&gt;
-  &lt;li&gt;mini2Dx-libgdx (Common code for LibGDX-based runtimes)&lt;/li&gt;
-  &lt;li&gt;mini2Dx-libgdx-desktop (LibGDX runtime for Windows/Mac/Linux)&lt;/li&gt;
-  &lt;li&gt;mini2Dx-libgdx-android (LibGDX runtime for Android)&lt;/li&gt;
-  &lt;li&gt;mini2Dx-libgdx-ios (LibGDX runtime for iOS - Note: This is not release in alpha.1 but will be in alpha.2)&lt;/li&gt;
-  &lt;li&gt;mini2Dx-monogame (Common code for MonoGame-based runtimes)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Upgrading to 2.0&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;mini2Dx 2.0 now provides cross-platform APIs for Sprite, Texture, TextureRegion, etc. However, if you use a LibGDX-specific API not provided by mini2Dx, you’ll need to find/implement a cross-platform solution. If you don’t plan on porting to consoles, you can simply add a dependency on &lt;em&gt;mini2Dx-libgdx&lt;/em&gt; to your core project and continue using the LibGDX APIs.&lt;/p&gt;
-
-&lt;p&gt;Simply follow the &lt;a href=&quot;https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx&quot;&gt;updating mini2Dx&lt;/a&gt; page and set your version to &lt;em&gt;2.0.0-alpha.1&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Desktop/Mobile Runtimes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Since the desktop/mobile runtimes are based on 1.9.x, these should already be stable. As always if you find any issues please add them to the &lt;a href=&quot;https://github.com/mini2Dx/mini2Dx/issues&quot;&gt;Issue Tracker&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Console Runtimes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;mini2Dx 2.0 will add games console support via MonoGame. However, please note the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You must be a registered developer with the console provider to gain access to the runtime for that platform&lt;/li&gt;
-  &lt;li&gt;The console-specific runtimes are held in private repositories&lt;/li&gt;
-  &lt;li&gt;You will need to purchase the appropriate development hardware as required&lt;/li&gt;
-  &lt;li&gt;You will need to purchase a license for a cross-compiler to target the platform (more info available soon)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Future&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We’ll be continuing with bug fixes until 2.0 is stable on all platforms. We encourage developers to test the alpha/beta builds and help us find issues. As previous stated, 1.9.x will only receive bug fixes and optimisations going forward. Once 2.0 is released, 1.9.x will be 100% community-driven on the &lt;a href=&quot;https://github.com/mini2Dx/mini2Dx-ve&quot;&gt;mini2Dx Vintage Edition repository&lt;/a&gt;.&lt;/p&gt;</content><author><name>Thomas Cashman</name></author><summary type="html">I’m excited to reveal the first alpha of mini2Dx 2.0 :) As previously announced, 2.0 de-couples LibGDX to allow for more platforms. A special thanks to Augusto Zanellato for his major contributions to the new MonoGame-based runtime on games consoles. For anyone using 1.9.x, the upgrade path should be easy as we’ve aimed to keep the API as close as possible in 2.0. New Library Structure The following is the new library/dependency structure for mini2Dx. mini2Dx-core (Cross-platform APIs) mini2Dx-libgdx (Common code for LibGDX-based runtimes) mini2Dx-libgdx-desktop (LibGDX runtime for Windows/Mac/Linux) mini2Dx-libgdx-android (LibGDX runtime for Android) mini2Dx-libgdx-ios (LibGDX runtime for iOS - Note: This is not release in alpha.1 but will be in alpha.2) mini2Dx-monogame (Common code for MonoGame-based runtimes) Upgrading to 2.0 mini2Dx 2.0 now provides cross-platform APIs for Sprite, Texture, TextureRegion, etc. However, if you use a LibGDX-specific API not provided by mini2Dx, you’ll need to find/implement a cross-platform solution. If you don’t plan on porting to consoles, you can simply add a dependency on mini2Dx-libgdx to your core project and continue using the LibGDX APIs. Simply follow the updating mini2Dx page and set your version to 2.0.0-alpha.1 Desktop/Mobile Runtimes Since the desktop/mobile runtimes are based on 1.9.x, these should already be stable. As always if you find any issues please add them to the Issue Tracker. Console Runtimes mini2Dx 2.0 will add games console support via MonoGame. However, please note the following: You must be a registered developer with the console provider to gain access to the runtime for that platform The console-specific runtimes are held in private repositories You will need to purchase the appropriate development hardware as required You will need to purchase a license for a cross-compiler to target the platform (more info available soon) Future We’ll be continuing with bug fixes until 2.0 is stable on all platforms. We encourage developers to test the alpha/beta builds and help us find issues. As previous stated, 1.9.x will only receive bug fixes and optimisations going forward. Once 2.0 is released, 1.9.x will be 100% community-driven on the mini2Dx Vintage Edition repository.</summary></entry></feed>
+&lt;p&gt;As always, follow the &lt;a href=&quot;https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx&quot;&gt;updating mini2Dx&lt;/a&gt; page to update your version.&lt;/p&gt;</content><author><name>Thomas Cashman</name></author><summary type="html">We’ve just released mini2Dx 2.0.0-alpha.2 and 1.9.10 with loads of fixes. 2.0.0-alpha.2 The following fixes/improvements have been made in 2.0.0-alpha.2. Once again a big thanks to Augusto Zanellato for his contributions :) Update to latest RoboVM to support iOS 12 (Re-)Added artemis-odb library and iOS runtime Implemented TilingDrawable Added SpriteCache interface and implementations Added ReadOnlyColor class for primary colors to avoid manipulation issues Reduced memory usage in MonoGame runtime Fixed dependency injection not injecting prototypes correctly (#175) Fixed FileHandle.listFiles() not working correctly (#88) Fixed clipping not working when rendering shapes 1.9.10 mini2Dx 1.9.10 also contains the following changes: Update to latest RoboVM to support iOS 12 (#88) Fixed clipping not working when rendering shapes As always, follow the updating mini2Dx page to update your version.</summary></entry></feed>

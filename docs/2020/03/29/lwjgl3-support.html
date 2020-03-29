@@ -28,8 +28,29 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>mini2Dx - Blog</title>
-        <meta name="description" content="">
+        <title>mini2Dx - LWJGL3 Support</title>
+        <meta name="description" content="We’ve just released mini2Dx 2.0.0-alpha.22 which adds support for LibGDX’s LWJGL 3 runtime. This will provide improved support for many things including internationalized input handling, ARM architecture, multi-monitor setups and more!
+
+Moving forward there will be two LibGDX desktop runtimes:
+
+compile "org.mini2Dx:mini2Dx-libgdx-desktop-lwjgl2:2.0.0-alpha.22"
+
+OR
+
+compile "org.mini2Dx:mini2Dx-libgdx-desktop-lwjgl3:2.0.0-alpha.22"
+
+
+
+DesktopMini2DxConfig has now been replaced with Lwjgl2Mini2DxConfig and Lwjgl3Mini2DxConfig.
+
+If you haven’t upgraded to the 2.0.0 alpha yet, you can find more info here page to update your version. If you find any issues, please report them on the Issue Tracker.
+
+Roadmap
+
+We’re still working on supporting games consoles but have been delayed due to everyone being busy with work. However, progress is being made and we hope to have a beta version soom(TM)!
+
+In the meantime, make sure to join our community on Discord!
+">
         <meta name="keywords" content="2D,java,game,development,framework,library,cross-platform,open-source,slick2D,libgdx,lwjgl,wiki,javadoc,documentation,android,iOS,linux,windows,mac,gamedev">
         <meta name="author" content="Thomas Cashman">
 
@@ -101,126 +122,39 @@
 <div class="container blog-left-img">
     <div class="row">
         <div class="col-xs-12">
-            
             <div class="blog-post">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 margin20">
                         <ul class="list-inline post-detail">
                             <li>by Thomas Cashman</li>
-                            <li><i class="fa fa-calendar"></i> 2017-01-29 09:00:00 +0000</li>
+                            <li><i class="fa fa-calendar"></i> 2020-03-29 19:00:00 +0100</li>
                         </ul>
-                        <h2><a href="/2017/01/29/mini2Dx-1-4-3-released.html">mini2Dx 1.4.3 released</a></h2>
-                        <p>Hey there mini2Dx community,</p>
+                        <h2><a href="/2020/03/29/lwjgl3-support.html">LWJGL3 Support</a></h2>
+                        <p>We’ve just released mini2Dx 2.0.0-alpha.22 which adds support for LibGDX’s LWJGL 3 runtime. This will provide improved support for many things including internationalized input handling, ARM architecture, multi-monitor setups and more!</p>
 
-<p>I’ve published mini2Dx 1.4.3 to Maven Central. This is a small update which prevents the UiContainer from blocking keyUp/buttonUp events if it never received the original keyDown/buttonDown down event.</p>
+<p>Moving forward there will be two LibGDX desktop runtimes:</p>
 
-<p>To update your existing projects, see the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">Updating mini2Dx</a> wiki page.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>compile "org.mini2Dx:mini2Dx-libgdx-desktop-lwjgl2:2.0.0-alpha.22"
 
-                        <p>
-                            <a href="/2017/01/29/mini2Dx-1-4-3-released.html">Read more</a>
-                        </p>
+OR
+
+compile "org.mini2Dx:mini2Dx-libgdx-desktop-lwjgl3:2.0.0-alpha.22"
+</code></pre>
+</div>
+
+<p>DesktopMini2DxConfig has now been replaced with Lwjgl2Mini2DxConfig and Lwjgl3Mini2DxConfig.</p>
+
+<p>If you haven’t upgraded to the 2.0.0 alpha yet, you can find more info <a href="/2019/08/04/mini2Dx-2-0-0-alpha-1-released.html">here</a> page to update your version. If you find any issues, please report them on the <a href="https://github.com/mini2Dx/mini2Dx/issues">Issue Tracker</a>.</p>
+
+<h2 id="roadmap">Roadmap</h2>
+
+<p>We’re still working on supporting games consoles but have been delayed due to everyone being busy with work. However, progress is being made and we hope to have a beta version soom(TM)!</p>
+
+<p>In the meantime, make sure to <a href="https://mini2dx.org/community.html">join our community on Discord</a>!</p>
+
                     </div>
                 </div>
             </div><!--blog post-->
-            
-            <div class="blog-post">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 margin20">
-                        <ul class="list-inline post-detail">
-                            <li>by Thomas Cashman</li>
-                            <li><i class="fa fa-calendar"></i> 2017-01-24 09:00:00 +0000</li>
-                        </ul>
-                        <h2><a href="/2017/01/24/mini2Dx-1-4-2-released.html">mini2Dx 1.4.2 released</a></h2>
-                        <p>Hey there mini2Dx community,</p>
-
-<p>I’ve published mini2Dx 1.4.2 to Maven Central. This is a small update which adds some additional methods to the Tiled classes.</p>
-
-<p>For a full changelog see the <a href="https://github.com/mini2Dx/mini2Dx/blob/master/CHANGES">CHANGES file</a> in the Github repository. To update your existing projects, see the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">Updating mini2Dx</a> wiki page.</p>
-
-                        <p>
-                            <a href="/2017/01/24/mini2Dx-1-4-2-released.html">Read more</a>
-                        </p>
-                    </div>
-                </div>
-            </div><!--blog post-->
-            
-            <div class="blog-post">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 margin20">
-                        <ul class="list-inline post-detail">
-                            <li>by Thomas Cashman</li>
-                            <li><i class="fa fa-calendar"></i> 2017-01-23 09:00:00 +0000</li>
-                        </ul>
-                        <h2><a href="/2017/01/23/mini2Dx-1-4-1-released.html">mini2Dx 1.4.1 released</a></h2>
-                        <p>Hey there mini2Dx community,</p>
-
-<p>I’ve published mini2Dx 1.4.1 to Maven Central. This is a tiny update containing only 2 small additions to the API.</p>
-
-<p>For a full changelog see the <a href="https://github.com/mini2Dx/mini2Dx/blob/master/CHANGES">CHANGES file</a> in the Github repository. To update your existing projects, see the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">Updating mini2Dx</a> wiki page.</p>
-
-                        <p>
-                            <a href="/2017/01/23/mini2Dx-1-4-1-released.html">Read more</a>
-                        </p>
-                    </div>
-                </div>
-            </div><!--blog post-->
-            
-            <div class="blog-post">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 margin20">
-                        <ul class="list-inline post-detail">
-                            <li>by Thomas Cashman</li>
-                            <li><i class="fa fa-calendar"></i> 2017-01-18 09:00:00 +0000</li>
-                        </ul>
-                        <h2><a href="/2017/01/18/adapative-ui-for-video-games.html">Adaptive UI for Video Games</a></h2>
-                        <p>In recent years, websites have begun to shift their designs towards the concept of “responsive web design” to accommodate for the growing mobile market. This approach allows a single website to adapt its layout and visuals to suit the screen size that it is viewed on. The popularity of this approach has seen frameworks such as Twitter Bootstrap and Foundation become the unofficial defaults for implementing web design.</p>
-
-
-                        <p>
-                            <a href="/2017/01/18/adapative-ui-for-video-games.html">Read more</a>
-                        </p>
-                    </div>
-                </div>
-            </div><!--blog post-->
-            
-            <div class="blog-post">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 margin20">
-                        <ul class="list-inline post-detail">
-                            <li>by Thomas Cashman</li>
-                            <li><i class="fa fa-calendar"></i> 2017-01-16 09:00:00 +0000</li>
-                        </ul>
-                        <h2><a href="/2017/01/16/mini2Dx-1-4-0-released.html">mini2Dx 1.4.0 released</a></h2>
-                        <p>Hey there mini2Dx community,</p>
-
-<p>I’ve published mini2Dx 1.4.0 to Maven Central. This release mainly focuses on performance improvements to the geometry classes and some API improvements to the UI framework. Note that this release of the UI framework has some breaking changes, the documentation in the wiki has been updated to match this version.</p>
-
-
-                        <p>
-                            <a href="/2017/01/16/mini2Dx-1-4-0-released.html">Read more</a>
-                        </p>
-                    </div>
-                </div>
-            </div><!--blog post-->
-            
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="blog-post text-center">
-                <div class="row">
-                    <div class="pagination">
-                        
-                        <a href="/blog/page12/" class="previous">Previous</a>
-                        
-                        <span class="page_number ">Page: 13 of 16</span>
-                        
-                        <a href="/blog/page14/" class="next">Next</a>
-                        
-                        </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
