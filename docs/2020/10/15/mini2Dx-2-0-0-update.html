@@ -28,16 +28,29 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>mini2Dx - mini2Dx 1.7.9 released</title>
-        <meta name="description" content="mini2Dx 1.7.9 has been released with the following changes:
+        <title>mini2Dx - mini2Dx 2.0.0 Status Update</title>
+        <meta name="description" content="2.0.0-alpha.34
+
+We’ve just pushed 2.0.0-alpha.34. A lot of changes have been going into the alpha versions to support more types of games and more complex usage.
+
+The biggest change is the introduction of Mdx.timestepMode which allows developers to change their game’s timestep to use normal deltas (time since last frame) or a physics-based timestep implementing the updatePhysics method in their game. Previously, mini2Dx forced developers to use a physics-based approach but this is not ideal for all games. Now developers have the flexibility to choose their timestep based on their game.
+
+Artifact ID Changes
+
+Github Packages have started to enforce lowercase for all artifacts. As such, from 2.0.0-alpha.34, the artifact IDs in the your Gradle dependencies will need to be lowercase.
+
+Your dependencies should look like:
+
+        compile "org.mini2Dx:mini2dx-core:$mini2DxVersion"
+        compile "org.mini2Dx:mini2dx-tiled:$mini2DxVersion"
 
 
-  [BREAKING] mini2Dx artemis systems moved from package com.artemis.system to com.artemis to provide access to artemis-odb scopes
-  Fix interpolation and rendering systems not checking disabled flag
-  Fix DispersedIntervalEntitySystem not removing entities from processing queue if deleted between intervals
 
+Beta Timeline
 
-To update your existing projects, see the Updating mini2Dx wiki page.
+We have an internal deadline of December for a project to provide the consoles runtime on. There’s a good few optimisations and bug fixes to be done but once everything is stable-ish, we’ll be releasing the mini2Dx 2.0 beta along with the new website!
+
+In the meantime, make sure to join our community on Discord!
 ">
         <meta name="keywords" content="2D,java,game,development,framework,library,cross-platform,open-source,slick2D,libgdx,lwjgl,wiki,javadoc,documentation,android,iOS,linux,windows,mac,gamedev">
         <meta name="author" content="Thomas Cashman">
@@ -115,18 +128,31 @@ To update your existing projects, see the Updating mini2Dx wiki page.
                     <div class="col-md-8 col-md-offset-2 margin20">
                         <ul class="list-inline post-detail">
                             <li>by Thomas Cashman</li>
-                            <li><i class="fa fa-calendar"></i> 2018-08-20 16:00:00 +0300</li>
+                            <li><i class="fa fa-calendar"></i> 2020-10-15 12:00:00 +0000</li>
                         </ul>
-                        <h2><a href="/2018/08/20/mini2Dx-1-7-9-released.html">mini2Dx 1.7.9 released</a></h2>
-                        <p>mini2Dx 1.7.9 has been released with the following changes:</p>
+                        <h2><a href="/2020/10/15/mini2Dx-2-0-0-update.html">mini2Dx 2.0.0 Status Update</a></h2>
+                        <h2 id="200-alpha34">2.0.0-alpha.34</h2>
 
-<ul>
-  <li>[BREAKING] mini2Dx artemis systems moved from package com.artemis.system to com.artemis to provide access to artemis-odb scopes</li>
-  <li>Fix interpolation and rendering systems not checking disabled flag</li>
-  <li>Fix DispersedIntervalEntitySystem not removing entities from processing queue if deleted between intervals</li>
-</ul>
+<p>We’ve just pushed 2.0.0-alpha.34. A lot of changes have been going into the alpha versions to support more types of games and more complex usage.</p>
 
-<p>To update your existing projects, see the <a href="https://github.com/mini2Dx/mini2Dx/wiki/Updating-mini2Dx">Updating mini2Dx</a> wiki page.</p>
+<p>The biggest change is the introduction of <code class="highlighter-rouge">Mdx.timestepMode</code> which allows developers to change their game’s timestep to use normal deltas (time since last frame) or a physics-based timestep implementing the <code class="highlighter-rouge">updatePhysics</code> method in their game. Previously, mini2Dx forced developers to use a physics-based approach but this is not ideal for all games. Now developers have the flexibility to choose their timestep based on their game.</p>
+
+<h2 id="artifact-id-changes">Artifact ID Changes</h2>
+
+<p>Github Packages have started to enforce lowercase for all artifacts. As such, from 2.0.0-alpha.34, the artifact IDs in the your Gradle dependencies will need to be lowercase.</p>
+
+<p>Your dependencies should look like:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>        compile "org.mini2Dx:mini2dx-core:$mini2DxVersion"
+        compile "org.mini2Dx:mini2dx-tiled:$mini2DxVersion"
+</code></pre>
+</div>
+
+<h2 id="beta-timeline">Beta Timeline</h2>
+
+<p>We have an internal deadline of December for a project to provide the consoles runtime on. There’s a good few optimisations and bug fixes to be done but once everything is stable-ish, we’ll be releasing the mini2Dx 2.0 beta along with the new website!</p>
+
+<p>In the meantime, make sure to <a href="https://mini2dx.org/community.html">join our community on Discord</a>!</p>
 
                     </div>
                 </div>
