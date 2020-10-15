@@ -1,0 +1,32 @@
+---
+layout: post
+author: Thomas Cashman
+title:  "mini2Dx 2.0.0 Status Update"
+date:   2020-10-15 12:00:00 +0000
+---
+
+2.0.0-alpha.34
+-----------------------
+
+We've just pushed 2.0.0-alpha.34. A lot of changes have been going into the alpha versions to support more types of games and more complex usage.
+
+The biggest change is the introduction of `Mdx.timestepMode` which allows developers to change their game's timestep to use normal deltas (time since last frame) or a physics-based timestep implementing the `updatePhysics` method in their game. Previously, mini2Dx forced developers to use a physics-based approach but this is not ideal for all games. Now developers have the flexibility to choose their timestep based on their game.
+
+Artifact ID Changes
+-----------------------
+
+Github Packages have started to enforce lowercase for all artifacts. As such, from 2.0.0-alpha.34, the artifact IDs in the your Gradle dependencies will need to be lowercase.
+
+Your dependencies should look like:
+
+```
+        compile "org.mini2Dx:mini2dx-core:$mini2DxVersion"
+        compile "org.mini2Dx:mini2dx-tiled:$mini2DxVersion"
+```
+
+Beta Timeline
+-----------------------
+
+We have an internal deadline of December for a project to provide the consoles runtime on. There's a good few optimisations and bug fixes to be done but once everything is stable-ish, we'll be releasing the mini2Dx 2.0 beta along with the new website!
+
+In the meantime, make sure to [join our community on Discord](https://mini2dx.org/community.html)!
